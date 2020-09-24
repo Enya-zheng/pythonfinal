@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div>
+
+<h1>美国2005-2015年五个主要原因潜在死亡人数情况分析</h1>
+
+		<b> 项目背景</b>
+		<br>
+		<li> 2014年，美国全因年龄调整后的死亡率达到了历史低点，而美国非大都市地区的死亡率下降的速度要慢得多，导致城乡死亡率差距越来越大。在1999年至2014年期间，美国非大都市地区五种主要死亡原因（心脏病，癌症，意外伤害，慢性下呼吸道疾病（CLRD）和中风）的年度年龄校正死亡率高于都市。</li>
+		<li> 潜在超额死亡（也称为潜在可预防的死亡）的定义是，年龄80岁的人中的死亡人数超过了所有州的每种原因的死亡率与三个州之间的死亡率相等时的预期人数具有最低速率。尽管并非所有潜在的过度死亡都可以预防，但许多死亡可能是可以通过改善公共卫生计划来预防的，这些计划支持更健康的行为和社区以及更好地获得医疗服务。</li>
+		<br>
+		<b> 数据来源</b>
+		<br>
+		<br>
+
+		美国疾病预防控制中心
+</br>
+</br>
+</br>
+</br>
+	<a href="">美国五个主要原因潜在死亡人数占比趋势</a><br>
+  	<a href="">美国五个主要原因潜在死亡人数区域情况"></a><br>
+	<a href="">美国五个主要原因潜在死亡人数情况</a><br>
+
+	  <br>
+	  <br>
+
+<br>
+<br>
+<select  autofocus method='POST' onchange="window.location=this.value;width='30'">
+	<option>-请点击进行选择-</option>
+	<option value="Cancer">Cancer</option>
+	  <option value="Chronic">Chronic Lower Respiratory Disease</option>
+	  <option value="Heart">Heart Disease</option>
+	  <option value="Stroke">Stroke</option>
+	  <option value="Unintentional">Unintentional Injury</option>
+  </select>
+<br>
+
+</div>
+	</br>
+	</br>
+</br>
+</br>
+{% endblock %}
